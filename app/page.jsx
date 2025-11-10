@@ -3,6 +3,29 @@ import bgImg from "../public/background.png";
 import logo from "../public/Logo.png";
 
 export default function Home() {
+  const navCompo = [
+    {
+      navLink: "#",
+      menuTitle: "Home",
+    },
+    {
+      navLink: "#",
+      menuTitle: "Plant type",
+      secondary: {
+        navLink: "#",
+        menuTitle: "CERC Chruch",
+      },
+    },
+    {
+      navLink: "#",
+      menuTitle: "More",
+    },
+    {
+      navLink: "#",
+      menuTitle: "Contact",
+    },
+  ];
+
   return (
     <main>
       <section
